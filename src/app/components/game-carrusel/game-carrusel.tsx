@@ -1,5 +1,5 @@
 import './game-carrusel.css'
-import Game from '../components/game/game'
+import Game from '../game/game'
 
 export default function GameCarrusel(){
     return(

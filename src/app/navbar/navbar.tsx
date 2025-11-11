@@ -1,7 +1,8 @@
-import './navbar.css';
-
+import "./navbar.css"
 export default function NavBar(){
     return(
+      <header>
+
       <nav className="navbar">
   <div className="navbar-left">
     <a href="/" className="logo">
@@ -14,13 +15,14 @@ export default function NavBar(){
         <a href="/products">Games</a>
       </li>
       <li>
-        <a href="/about">BackLog</a>
+        <a href="/backlog">BackLog</a>
       </li>
       <li>
-        <a href="/contact">Friends</a>
+        <a href="/bffs">Friends</a>
       </li>
     </ul>
   </div>
 </nav>
+</header>
     );
 }

@@ -1,8 +1,9 @@
 import Image from "next/image";
 import './homepage.css'
-import '../promotion-carrusel/promotion-carrusel'
-import PromotionCarrusel from "../promotion-carrusel/promotion-carrusel";
-import GameCarrusel from "../game-carrusel/game-carrusel";
+import '../components/promotion-carrusel/promotion-carrusel'
+import PromotionCarrusel from "../components/promotion-carrusel/promotion-carrusel";
+import GameCarrusel from "../components/game-carrusel/game-carrusel";
+import ReviewList from "../review-list/review-list";
 
 export default function HomePage(){
     return(
@@ -13,10 +14,7 @@ export default function HomePage(){
             <GameCarrusel />
             <GameCarrusel />
             <PromotionCarrusel />
-
-            <div className="review-list">  
-              <div className="review" />
-            </div>
+            <ReviewList />
            </div>
         </main>
       </div>
