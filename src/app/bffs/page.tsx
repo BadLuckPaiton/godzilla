@@ -1,5 +1,4 @@
 import Form from 'next/form'
-import Game from "../components/friend/friend";
 import './bffs.css';
 import Friend from '../components/friend/friend';
 export default function Page(){
