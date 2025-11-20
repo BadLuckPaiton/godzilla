@@ -1,4 +1,4 @@
-import './game.css';
+import './profile.css';
 import Image from 'next/image'
 import Game from '../components/game/game';
 import Friend from '../components/friend/friend'
