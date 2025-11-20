@@ -1,0 +1,17 @@
+.friend-box {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    columns: 2;
+    column-gap: 10px;
+    margin:5px;
+    flex: 1;
+    display: flex;
+}
+
+.friend-profile-picture {
+    border-radius: 50%;
+}
+
+.friend-titles {
+}

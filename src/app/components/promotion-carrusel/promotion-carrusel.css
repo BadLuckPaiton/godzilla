@@ -1,0 +1,13 @@
+.promotion-carrusel{
+    margin-top: 2%;
+    background-color: rgb(0, 224, 49);
+    height: 350px;
+    margin-bottom: 2%;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
