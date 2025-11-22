@@ -1,63 +1,64 @@
 .container{
      display: flex;
      padding: 25px;
-     columns: 3;
-}
-.game-overral{
-    flex: 0.5;
-    display: flex;
-    flex-direction:column;
+     flex-direction:column;
 }
 
-.game-display{
+.profile-display-grip{
     display: flex;
+    grid-row: 2;
+    height: 200px;
+    width: 100%;
+}
+
+.profile-picture-grid{
+    flex: 0.5;
+    display: flex;
+}
+
+.profile-display-information{
+    flex: 3;
+}
+
+.profile-overral-games{
+    width: 100%;
+    height:auto;
+    flex-direction: row;
+    grid-row:2;
+    display: flex;
+}
+
+.profile-game{
+    flex:6;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-favorite-games{
+    flex:2;
+    width: 100%;
+    height: 100%;
+}
+
+.friend-profile-picture {
+    border-radius: 50%;
     justify-content: center;
 }
 
-.game-Info{
-    flex: 1;
-}
-
-.game-rate{
-    flex: 1;
+.profile-current-games{
     display: flex;
-  justify-content: center;
 }
 
-.box-container{
-    border-radius: 25px;
-    width: calc(100% - 10%);
-    height: 400px;
+.profile-last-game{
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
 }
 
-.box-first-step{
-    flex:3;
-    display: flex;
-    flex-direction: row;
-}
-
-.box-third-step{
-    flex:2;
-    display: flex;
-    flex-direction: row;
-}
-
-.second-first-step{
+.profile-last-game-pic{
     flex:1;
 }
 
-.review-icons{
-    flex:3;
-}
-
-.rated{
-    flex:3;
-    display: flex;
-    flex-direction: row;
-}
-
-.rated-icon{
-    flex:1;
+.profile-last-game-info{
+    flex:4;
 }
