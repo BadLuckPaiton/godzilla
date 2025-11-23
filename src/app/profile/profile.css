@@ -1,0 +1,64 @@
+.container{
+     display: flex;
+     padding: 25px;
+     flex-direction:column;
+}
+
+.profile-display-grip{
+    display: flex;
+    grid-row: 2;
+    height: 200px;
+    width: 100%;
+}
+
+.profile-picture-grid{
+    flex: 0.5;
+    display: flex;
+}
+
+.profile-display-information{
+    flex: 3;
+}
+
+.profile-overral-games{
+    width: 100%;
+    height:auto;
+    flex-direction: row;
+    grid-row:2;
+    display: flex;
+}
+
+.profile-game{
+    flex:6;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-favorite-games{
+    flex:2;
+    width: 100%;
+    height: 100%;
+}
+
+.friend-profile-picture {
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.profile-current-games{
+    display: flex;
+}
+
+.profile-last-game{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.profile-last-game-pic{
+    flex:1;
+}
+
+.profile-last-game-info{
+    flex:4;
+}

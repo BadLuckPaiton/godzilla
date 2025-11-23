@@ -12,6 +12,9 @@ export default function NavBar(){
   <div className="navbar-right">
   <ul className="nav-links">
       <li>
+        <a href="/profile">profile</a>
+      </li>
+      <li>
         <a href="/game">Games</a>
       </li>
       <li>

@@ -3,15 +3,19 @@
      padding: 25px;
      columns: 3;
 }
-.game-display{
-    background-color: aquamarine;
+.game-overral{
     flex: 0.5;
+    display: flex;
+    flex-direction:column;
+}
+
+.game-display{
+    display: flex;
+    justify-content: center;
 }
 
 .game-Info{
-    background-color: blueviolet;
     flex: 1;
-    
 }
 
 .game-rate{
@@ -20,47 +24,40 @@
   justify-content: center;
 }
 
-.gaming{
-    width: 500px;
-}
-
-.card-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: auto;
-}
-
-.card {
-    background: #fff;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.text {
-    flex: 1;
-    margin-right: 15px; /* Space before the image */
-}
-
-.card-image {
-    width: 140px;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
 .box-container{
     border-radius: 25px;
     width: calc(100% - 10%);
-    height: 500px;
-    background-color: gray;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .box-first-step{
+    flex:3;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-third-step{
+    flex:2;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-first-step{
+    flex:1;
+}
+
+.review-icons{
+    flex:3;
+}
+
+.rated{
+    flex:3;
+    display: flex;
+    flex-direction: row;
+}
+
+.rated-icon{
+    flex:1;
 }
